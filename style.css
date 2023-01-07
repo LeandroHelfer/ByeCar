@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #303030;
+}
+
+header h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-left: 31px;
+}
+
+section {
+    display: flex;
+    margin-top: 58px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #265E70;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+h5 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.left img {
+    width: 600px;
+    margin-top: 18px;
+}
+
+.container {
+    display: flex;
+    width: 501px;
+    height: 450px;
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+    margin-top: 22px;
+}
+
+.container button {
+    width: 211px;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 1px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    color: #265E70;
+    margin-top: 10px;
+}
+
+.carousel {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.itens-carousel {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.item-card {
+    min-width: 500px;
+    max-width: 501px;
+    height: 500px;
+    text-align: center;
+
+}
+
+#button {
+    width: 341px;
+    height: 75px;
+    left: 935px;
+    top: 849px;
+    background: #4DBCE9;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border: 1px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.itens-carousel-next,
+.itens-carousel-previous {
+  background-color: transparent;
+  border: none;
+}

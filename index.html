@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pe-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByeCar</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="Assets/dnc.svg">
+        <h1> ByeCar </h1>
+    </header>
+
+    <section>
+        <div class="left">
+            <h2>Ter <strong>uma moto</strong> por assinatura<br>
+                nunca foi tão fácil!</p>
+            <img src="Assets/imgLeft.PNG">
+        </div>
+
+        <div class="right">
+            <h2>Conheça nossas <strong><span style="color: #4DBCE9">Motos</span></strong>!
+
+            <div class="carousel">
+                <button class="itens-carousel-next" onclick="show(-1)">
+                    <img src="Assets/return.svg">
+                </button>
+
+                <div class="container">
+                    <ul class="itens-carousel">
+                        <li class="item-card">
+                            <h3>Scooter Elétrica Voltz EV1</p>
+                            <img width="270px" height="250px" src="Assets/scooter.svg" alt="" />
+                            <h4>A partir de</h4>
+                            <button>R$ 619,90</button>
+                            <h5>Plano de 30 meses</h5>
+
+                        </li>
+                        <li class="item-card">
+                            <h3>Honda CB 500X</p>
+                            <img width="334px" height="250px" src="Assets/honda.svg" alt="" />
+                            <h4>A partir de</h4>
+                            <button>R$ 619,90</button>
+                            <h5>Plano de 30 meses</h5>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="itens-carousel-previous" onclick="show(+1)">
+                    <img src="Assets/next.svg">
+                </button>
+            </div>
+
+            <button id="button">Saiba Mais</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
